@@ -17,7 +17,7 @@ https://drive.google.com/file/d/1bIeANAk8IdhBNQ_BIVzKdUSgcDP3F808/view?usp=shari
 iPad
 https://drive.google.com/file/d/19uU98_MAcJeXii_pAFXwnnF9Wup4noyk/view?usp=sharing
 
-P.S. Формат видео не указан, поэтому на iPhone8, 13 демонстрация обрезана, чтобы уложиться в time limit, формат mp4. Демонстрация на iPad получилась 14-тисекундной, из-за чего залила на google drive сразу как запись экрана в формате .mov
+P.S. Формат видео не указан в требованиях, поэтому на iPhone8, 13 демонстрация обрезана, чтобы уложиться в time limit, формат mp4. Демонстрация на iPad получилась 14-тисекундной, из-за чего залила на google drive сразу как запись экрана в формате .mov
 Переход по координатам сделала, пока писала readme (тоже в формате .mov)
 
 ## Что получилось сделать
