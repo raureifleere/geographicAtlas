@@ -57,7 +57,7 @@ For gaining bonus points and increasing your chances the following optional task
 2. Use “skeleton views” for all the elements while API requests are performed - 1 point. **Показано в видео (см. предзагрузка вроде показана только в видео на симуляторах iPhone8 и iPad)**
 3. Make the UI look and feel good for all the screen sizes including iPads - 2 points. **Thank you, SnapKit (записала видео для iPad)**
 4. Make the expand/collapse feature for CountriesList animated, with no UI bugs - 2 points. **на видео видно + код**
-5. Add the images caching and reuse them from cache (don’t download any image twice) **немного читинга случилось - kingfisher автоматически кэширует изображения... то вышло не специально, и изначально для получения флагов. Но добавлять отдельные методы для кэша, когда работает фреймворк, не нужно**
+5. Add the images caching and reuse them from cache (don’t download any image twice) **немного читинга случилось - kingfisher автоматически кэширует изображения... это вышло не специально, и изначально предназначено для получения флагов. Но добавлять отдельные методы для кэша, когда работает фреймворк, не нужно**
 6. Use “nice” naming (common readability, self-documenting code) **Не идеально**
 7. Follow any of the architectures (MVC, MVVM, VIPER etc.) - 1 point. **архитектура MVC**
 8. Write safe code, leave no possibility of crashes (correct optionals, array indices handling etc.) **работает**
