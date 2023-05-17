@@ -39,13 +39,13 @@ P.S. Формат видео не указан, поэтому на iPhone8, 13 
 
 ✔️**Features CountryList**
 
-Требования выполнены. Заголовок "World countries" реализован через `UINavigationBarAppearance()`. Список стран лежит в TableView, континенты из API используются для sections. Расширяющиеся ячейки TableView реализованы через две UIView, которые положила в UIStackView. Флаг isExpended по дефолту false, лежит в модельку CountryListModel. Меняем на true при использовании ячейки (ячеек, т.к включила метод .allowsMultipleSelection). Данные получаем из https://restcountries.com/v3.1/all 
+Требования выполнены. Заголовок "World countries" реализован через `UINavigationBarAppearance()`. Список стран лежит в TableView, континенты из API используются для sections. Они отсортированы и закреплены. Расширяющиеся ячейки TableView реализованы через две UIView, которые положила в UIStackView. Флаг isExpended по дефолту false, лежит в модельке CountryListModel. Меняем на true при использовании ячейки/ячеек, т.к включила метод .allowsMultipleSelection. Данные получаем из https://restcountries.com/v3.1/all 
 Переход по кнопку осуществляется через pushViewController, поэтому back автоматический добавляется. 
 
 ✔️**Features CountryDetails**
 
 cca2 и name получаем из https://restcountries.com/v3.1/all .
-Они должны подгружаться заранее. cca2 для второй модели, чтобы вставлять в ссылку и получать данные из https://restcountries.com/v3.1/alpha/[cca2], name.common для заголовка на VC. Скролл реализован еще одной таблицей. Флаг был оставлен в качестве заголовка секции, потому что tableHeaderView подгружался позднее ячеек (и происходило наслоение). Остальные данные лежат в 7-ми ячейках, которые грузим через switch. Насчет currencies оставила комментарий, что можно их вынести в отдельный swift file, как функцию, потому что она реализована в обоих VC. Не знаю насколько это валидно, поэтому оставила как есть.
+Они должны подгружаться заранее. cca2 для второй модели, чтобы вставлять в ссылку и получать данные из https://restcountries.com/v3.1/alpha/[cca2], name.common для заголовка на VC. Данные уже получаем из https://restcountries.com/v3.1/alpha/[cca2]. Модель использовала ту же, потому что данные практически одинаковые, просто обрезаны по одному. Скролл реализован еще одной таблицей. Флаг был оставлен в качестве заголовка секции, потому что tableHeaderView подгружался позднее ячеек (и происходило наслоение). Остальные данные лежат в 7-ми ячейках, которые грузим через switch. Насчет currencies оставила комментарий, что можно их вынести в отдельный swift file, как функцию, потому что она реализована в обоих VC. Не знаю насколько это валидно, поэтому оставила как есть.
 
 ## Блок Advanced 
 
@@ -61,7 +61,7 @@ For gaining bonus points and increasing your chances the following optional task
 6. Use “nice” naming (common readability, self-documenting code) **Не идеально**
 7. Follow any of the architectures (MVC, MVVM, VIPER etc.) - 1 point. **архитектура MVC**
 8. Write safe code, leave no possibility of crashes (correct optionals, array indices handling etc.) **работает**
-9. Make the “Capital coordinates” latitude + longitude value on the CountryDetails screen tappable; on tap open the link obtained from the “maps → openStreetMaps” - 1 point. **реализовала через жест тапа, отдельное демонстрационное видео (переход по координатам). Забыла, его показать на демонстрации, записала сейчас**
+9. Make the “Capital coordinates” latitude + longitude value on the CountryDetails screen tappable; on tap open the link obtained from the “maps → openStreetMaps” - 1 point. **реализовала через жест тапа, отдельное демонстрационное видео (переход по координатам). Забыла, что его надо показать на демонстрации, записала сейчас**
 
 #### Не получилось
 1. Add basic non-UI tests coverage - 1 point.
