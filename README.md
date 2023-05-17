@@ -53,7 +53,7 @@ cca2 и name получаем из https://restcountries.com/v3.1/all .
 For gaining bonus points and increasing your chances the following optional tasks can be implemented:
 1. Only one of these bonuses will be applied: 
     - Use programmatic Autolayout (or Autolayout + Snapkit) only - 3 points.
-      - SnapKit это те же самые якоря, поэтому немного не поняла что надо было использовать. Констреинты обычно прибиваю SnapKit, использовала его для удобства
+      - SnapKit под капотом те же самые якоря, поэтому немного не поняла надо было использовать их по отдельности для демонстрации или вместе. Констреинты обычно прибиваю SnapKit, использовала его для удобства. Первый пункт оставляю на усмотрение проверяющего
 2. Use “skeleton views” for all the elements while API requests are performed - 1 point. **Показано в видео (см. предзагрузка вроде показана только в видео на симуляторах iPhone8 и iPad)**
 3. Make the UI look and feel good for all the screen sizes including iPads - 2 points. **Thank you, SnapKit (записала видео для iPad)**
 4. Make the expand/collapse feature for CountriesList animated, with no UI bugs - 2 points. **на видео видно + код**
