@@ -34,6 +34,8 @@ P.S. Формат видео не указан, поэтому на iPhone8, 13 
 8. ✔️The link to any storage (i.e. Google Drive) containing demo video or animation file (.gif) with the running project should be placed in the project repository readme file. Both CountriesList and CountryDetails should be demonstrated in this demo file. The demo video/animation should be 10-15 seconds long.
 9. ✔️If any additional features from the “Advanced” section are implemented, it should be demonstrated in the demo video/animation or documented/mentioned explicitly in the project repository readme file. This will ensure that we assess all the additional features and award them with bonus points.
 
+**CountryList and CountryDetails реализованы полностью, без ошибок, поэтому по пунктам проходиться не буду. Кратко опишу как было реализовано** 
+
 ✔️**Features CountryList**
 
 Требования выполнены. Заголовок "World countries" реализован через `UINavigationBarAppearance()`. Список стран лежит в TableView, континенты из API используются для sections. Расширяющиеся ячейки TableView реализованы через две UIView, которые положила в UIStackView. Флаг isExpended по дефолту false, лежит в модельку CountryListModel. Меняем на true при использовании ячейки (ячеек, т.к включила метод .allowsMultipleSelection). Данные получаем из https://restcountries.com/v3.1/all 
@@ -46,7 +48,7 @@ cca2 и name получаем из https://restcountries.com/v3.1/all .
 
 ## Блок Advanced 
 
-### Реализовано
+#### Реализовано
 For gaining bonus points and increasing your chances the following optional tasks can be implemented:
 1. Only one of these bonuses will be applied: 
     - Use programmatic Autolayout (or Autolayout + Snapkit) only - 3 points.
@@ -60,7 +62,7 @@ For gaining bonus points and increasing your chances the following optional task
 8. Write safe code, leave no possibility of crashes (correct optionals, array indices handling etc.) **работает**
 9. Make the “Capital coordinates” latitude + longitude value on the CountryDetails screen tappable; on tap open the link obtained from the “maps → openStreetMaps” - 1 point. **реализовала через жест тапа, отдельное демонстрационное видео (переход по координатам). Забыла, его показать на демонстрации, записала сейчас**
 
-### Не получилось
+#### Не получилось
 1. Add basic non-UI tests coverage - 1 point.
 2. Add the pushes feature:
   - Make the push notification appear after 1-5 seconds after the app launch - 1 point;
